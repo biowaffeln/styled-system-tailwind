@@ -1,0 +1,20 @@
+{
+  "name": "create-styled-system-tailwind",
+  "version": "1.0.0",
+  "description": "A cli tool that generates a tailwind-themed config for styled-system",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "styled-system",
+    "tailwind"
+  ],
+  "author": "Mark Kvetny",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "ncp": "^2.0.0"
+  }
+}
