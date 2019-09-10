@@ -1,10 +1,10 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import theme from "../system/theme";
-import Hero from "../components/Hero";
-import CardExample from "../components/CardExample";
-import FormExample from "../components/FormExample";
-import GettingStarted from "../components/GettingStarted";
+import Hero from "./index/Hero";
+import CardExample from "./index/CardExample";
+import FormExample from "./index/FormExample";
+import GettingStarted from "./index/GettingStarted";
 import SEO from "../components/seo";
 
 const App = () => (

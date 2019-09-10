@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Button } from "../system/base";
+import { Box, Heading, Text, Button } from "../../system/base";
 
 const Hero = () => (
   <Box pt="10" pb="16" px="8">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Link, Heading } from "../system/base";
+import { Flex, Box, Link, Heading } from "../../system/base";
 import Card from "./Card";
 
 const CardExample = () => (

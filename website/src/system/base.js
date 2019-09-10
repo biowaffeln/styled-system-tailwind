@@ -87,7 +87,7 @@ export const Button = styled(Flex)({
 
 Button.defaultProps = {
   as: "button",
-  bg: "gray.200",
+  bg: "gray.300",
   fontWeight: "bold",
   alignItems: "center",
   height: "10",

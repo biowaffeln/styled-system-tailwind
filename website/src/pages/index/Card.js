@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Img, Heading, Text } from "../system/base";
+import { Box, Img, Heading, Text } from "../../system/base";
 
 /* --- Helper Components --- */
 

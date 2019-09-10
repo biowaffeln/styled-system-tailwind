@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, themeGet, Flex } from "../system/base";
+import { Box, Text, themeGet, Flex } from "../../system/base";
 import styled from "styled-components";
 
 /* --- Helper Components --- */

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Link } from "../system/base";
+import { Box, Heading, Text, Link } from "../../system/base";
 
 const GettingStarted = () => (
   <Box pt="12" px="8" pb="20">
