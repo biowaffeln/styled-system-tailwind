@@ -3,13 +3,16 @@ import { Box, Heading, Text, Link } from "../../system/base";
 
 const GettingStarted = () => (
   <Box pt="12" px="8" pb="20">
-    <Box textAlign="center" color="gray.900" maxWidth="md" mx="auto">
+    <Box textAlign="center" color="gray.900" maxWidth="lg" mx="auto">
       <Heading as="h2" id="getStarted" fontSize={["2xl", "3xl"]} mb="6">
-        add styled-system-tailwind to your project by running:
+        <Box as="span" color="indigo.600">
+          Ready to get started?
+        </Box>{" "}
+        Simply add styled-system-tailwind to your project by running:
       </Heading>
       <Text
         textAlign={["left", "center"]}
-        maxWidth={["sm", "full"]}
+        maxWidth={["sm", "md"]}
         color="white"
         borderRadius="normal"
         bg="gray.800"

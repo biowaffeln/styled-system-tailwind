@@ -11,6 +11,8 @@ const FormExample = () => (
       mx="auto"
       flexDirection={["column", "row-reverse"]}
       alignItems="center"
+      justifyContent="center"
+      minHeight="90vh"
     >
       <Flex
         flexDirection="column"

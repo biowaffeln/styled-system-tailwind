@@ -1,15 +1,23 @@
 import React from "react";
-import { Box, Heading, Text, Button } from "../../system/base";
+import styled from "styled-components";
+import { Flex, Box, Heading, Text, Button } from "../../system/base";
+
+const Strong = props => (
+  <Box as="strong" color="indigo.600" fontWeight="semibold" {...props} />
+);
+
+const Background = styled(Flex)``;
 
 const Hero = () => (
-  <Box pt="10" pb="16" px="8">
-    <Box textAlign="left" color="gray.900" maxWidth="lg" mx="auto">
+  <Background height="90vh" alignItems="center" justifyContent="center">
+    <Box px="8" mb="8" color="gray.900" maxWidth="lg">
       <Heading fontSize={["3xl", "4xl"]}>
         Hi! Welcome to Styled-System-Tailwind.
       </Heading>
       <Text mt="4" color="gray.700" fontSize={["xl", "2xl"]}>
-        A Tailwind-like configuration for styled-system. Create custom,
-        responsive websites with ease!
+        A <Strong>Tailwind-like</Strong> configuration for{" "}
+        <Strong>styled-system</Strong>. Create custom, responsive websites with
+        ease!
       </Text>
       <Box mt="8">
         <Button as="a" href="#getStarted" bg="indigo.500" color="white" mr="2">
@@ -26,7 +34,7 @@ const Hero = () => (
         </Button>
       </Box>
     </Box>
-  </Box>
+  </Background>
 );
 
 export default Hero;

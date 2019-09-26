@@ -11,6 +11,8 @@ const CardExample = () => (
       mx="auto"
       flexDirection={["column", "row"]}
       alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
     >
       <Flex
         flexDirection="column"
