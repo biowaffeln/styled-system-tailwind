@@ -111,14 +111,22 @@ const ScrollLink = props => {
 };
 
 const StyledScrollLink = styled(ScrollLink)`
+  transition: 0.2s;
   &:hover {
     color: black;
+    background: ${themeGet("colors.gray.400")};
   }
 `;
 
 const Sidebar = props => (
   <Box display={["none", "none", "block"]} width={48} {...props}>
-    <Box px="5" mt="12" position="fixed">
+    <Flex
+      flexDirection="column"
+      alignItems="flex-start"
+      mt="12"
+      ml="4"
+      position="fixed"
+    >
       {data.map(({ name }) => (
         <StyledScrollLink
           mb="2"
@@ -126,14 +134,15 @@ const Sidebar = props => (
           color="gray.700"
           fontSize="xl"
           textDecoration="none"
-          px="2"
+          px="3"
+          py="px"
           borderRadius="normal"
           href={`#${name}`}
         >
           {name}
         </StyledScrollLink>
       ))}
-    </Box>
+    </Flex>
   </Box>
 );
 
